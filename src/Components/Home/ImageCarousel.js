@@ -3,7 +3,7 @@ import pizzaImage1 from "./Images/pizza_image1.jpg"
 import pizzaImage2 from "./Images/pizza_image2.jpg"
 import pizzaImage3 from "./Images/pizza_image3.jpg"
 import "./ImageCarousel.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { useState } from 'react';
 
 
