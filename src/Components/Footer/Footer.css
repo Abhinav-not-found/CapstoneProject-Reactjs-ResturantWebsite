@@ -1,0 +1,10 @@
+.wrapper{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+}

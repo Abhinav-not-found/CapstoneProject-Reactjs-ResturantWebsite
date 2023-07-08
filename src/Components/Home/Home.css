@@ -1,0 +1,40 @@
+h1 span#slice{
+    padding: 0px 8px;
+    background-color: #FEAA1C;
+    border-radius: 5px;
+}
+h1{
+    font-family: cursive    ;
+    color: white !important;
+}
+h1 span#you{
+    padding: 0px 8px;
+    background-color: #D3213D;border-radius: 5px;
+}
+#heading{
+    margin-left: 15%;
+}
+#pizza img{
+    margin-right: 120px;
+    height: 17rem;
+    width: 17rem;
+    margin-left: -30px;
+}
+#img-text{
+    margin-left: 30%;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+#img-text span#price{
+    color: #D3213D;
+}
+#img-text span#special{
+    color: #FEAA1C;
+}
+#wrapper{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

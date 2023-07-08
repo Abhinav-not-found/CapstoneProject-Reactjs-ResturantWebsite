@@ -1,0 +1,10 @@
+#img1, #img2, #img3{
+    height: 700px;
+    width: 800px;
+}
+.carousel{
+   
+    width: 1100px;
+    height: 700px;
+    margin: auto;
+}

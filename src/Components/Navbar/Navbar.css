@@ -1,0 +1,41 @@
+#nav{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+#menu ul li a{
+    text-decoration: none;
+}
+#logo{
+    margin-left: 50px;
+}
+#logo p{
+    color: black;
+    font-weight: bold;
+    background-color: #FEAA1C;
+    padding: 4px 4px 0 0;
+    border-radius: 6px;
+    
+    border-bottom: 4px solid #D3213D;
+}
+.menu-item{
+    opacity: 50%;
+    color: white;
+}
+.active{
+    opacity: 100%;
+    border-bottom: 4px solid #D3213D;
+}
+#pizza_icon{
+    height: 20px;
+    width: 20px;
+}
