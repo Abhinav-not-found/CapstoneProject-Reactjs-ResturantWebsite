@@ -16,7 +16,9 @@ export default function Navbar() {
                 <ul >
                   <li><NavLink className='menu-item' to='/'>HOME</NavLink></li>
                   <li><NavLink className='menu-item' to='/about'>ABOUT</NavLink></li>
-                  <li><NavLink className='menu-item' to='/contact'>CONTACTS</NavLink></li>
+                  <li><NavLink className='menu-item' to='/order'>ORDER</NavLink></li>
+                  <li><NavLink className='menu-item' to='/dishes'>MENU</NavLink></li>
+                  <li><NavLink className='menu-item' to='/review'>REVIEW</NavLink></li>
                 </ul>
             </div>
             <div className='hamburger'>
