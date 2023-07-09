@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css"
 import pizza from "./Images/pizza3.png"
 import ImageCarousel from "./ImageCarousel"
+import pizza_video from "./pizza_video.mp4"
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
       </div>
         <ImageCarousel></ImageCarousel>
       
+        <video autoPlay loop muted playsInline className='background-clip' src={pizza_video} type='video/mp4'>
+          
+        </video>
 
     </div>
   )
