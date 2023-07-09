@@ -1,19 +1,25 @@
 import React from 'react'
 import "./Order.css"
+
 export default function Contact() {
   return (
     <div>
-        <h1>Order Now @0000-0000</h1>
+       
+        <div className='outer'>
+        <h1 >Order Now ph:9999-9999</h1>
+      
         <form id='form'>
-          <label>Name</label>
-          <input placeholder='Name'></input>
-          <label>Address</label>
-          <input type='text' placeholder='address'></input>
-          <label>Phone:</label>
-          <input type='text' placeholder='phone no'></input>
-          <label>Message</label>
-          <textarea placeholder='Food items?'></textarea>
+          <label>Name:</label>
+          <input id='name-inp' placeholder='eg. Jacob Brown'></input>
+          <label id='address'>Address:</label>
+          <input id='add-inp' type='text' placeholder='eg. 5th street building 2 room no 34'></input>
+          <label id='phone'>Phone:</label>
+          <input id='ph-inp' type='text' placeholder='eg. 9999-9999'></input>
+          <label id='food-item'>Food Items:</label>
+          <textarea id='text-inp' placeholder='Name, quantity (eg. Cheese pizza, 1)'></textarea>
+          <button id='btn'>Place Order</button>
         </form>
+        </div>
     </div>
   )
 }

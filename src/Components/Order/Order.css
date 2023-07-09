@@ -1,0 +1,79 @@
+label{
+    width: 100%;
+    color: white;
+    text-align: left;
+    /* background-color: red; */
+}
+input{
+    width: 300px;
+}
+#form{
+    margin-bottom: 90px;
+    padding: 30px;
+    height: 30rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: #FEAA1C; */
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    border-radius: 25px ;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    background-image: url('./pizza_background2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+textarea{
+    width: 90%;
+    height: 40%;
+}
+#address{
+    margin-top: 10px;
+}
+#phone{
+    margin-top: 10px;
+}
+#food-item{
+    margin-top: 10px;
+}
+#btn{
+    margin-top: 20px;
+}
+#name-inp{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#add-inp{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#ph-inp{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#text-inp{
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+}
+#btn{
+    background-color: #D3213D;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

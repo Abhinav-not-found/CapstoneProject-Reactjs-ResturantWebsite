@@ -20,7 +20,7 @@ export default function app() {
             <Route path='/dishes' element={<Dishes/>}/>
             <Route path='/review' element={<Review/>}/>
         </Routes>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
     </div>
   )
 }
