@@ -34,16 +34,14 @@ h1 span#you{
     color: #FEAA1C;
 }
 #wrapper{
-    /* background-color: red; */
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .background-clip{
     opacity: 100%;
-    position: relative;
+    position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;

@@ -1,0 +1,40 @@
+.Wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.Card{
+    height: 10rem;
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    border-radius: 15px;
+}
+.Card:hover{
+    box-shadow: 0px 0px 11px 2px yellow;
+    cursor: pointer;
+}
+.Card p{
+    margin-top: 5%;
+    
+}
+.Card h2{
+    font-size: small;
+    font-weight: bold;
+}
+.Card #img2{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.Card #img3{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
