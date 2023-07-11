@@ -4,10 +4,13 @@ import profile2 from "./profile-3.jpeg"
 // import profile3 from "./profile-4.jpeg"
 import profile6 from "./profile-6.jpeg"
 import "./Review.css"
+import { Bounce } from 'react-reveal'
 export default function Review() {
   return (
     <div>
         <div className='Wrapper'>
+          <Bounce left>
+
           <div className='Card'>
              <img src={profile1}></img>
             <div>
@@ -15,6 +18,8 @@ export default function Review() {
              <h2>John Doe</h2>
             </div>
           </div>
+          </Bounce>
+          <Bounce top>
 
           <div className='Card'>
              <img id='img2' src={profile2}></img>
@@ -23,7 +28,9 @@ export default function Review() {
              <h2>Sophia Anderson</h2>
             </div>
           </div>
-          
+          </Bounce>
+          <Bounce right>
+
           <div className='Card'>
              <img id='img3' src={profile6}></img>
             <div>
@@ -31,6 +38,7 @@ export default function Review() {
              <h2>Ethan Thompson</h2>
             </div>
           </div>
+          </Bounce>
 
 
         </div>
