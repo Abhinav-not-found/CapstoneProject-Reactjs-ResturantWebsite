@@ -1,0 +1,18 @@
+#quote{
+    color: white;
+}
+#wrapper1{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    flex-direction: column;
+}
+h3 span{
+    margin-left: 80%;
+    color: #FEAA1C;
+}
+#paragraph{
+    color: white;
+   padding: 100px;
+   /* background-color: rebeccapurple; */
+}
